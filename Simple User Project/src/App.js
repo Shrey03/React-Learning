@@ -1,10 +1,10 @@
 import React from "react";
+import AddUser from "./components/Users/AddUser";
 
 function App() {
   return (
     <div>
-      <h2>Starting project</h2>
-      <p>Creating user by taking input</p>
+      <AddUser></AddUser>
     </div>
   );
 }
